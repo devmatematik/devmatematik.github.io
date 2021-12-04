@@ -1,0 +1,323 @@
+body{
+    background-color: gray;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.container{
+    margin: 2px 18%;
+    display: flex;
+}
+.pages{
+    display: flex;
+}
+.page{
+    margin: 0px 1px;
+    display: none;
+}
+.img{
+    width: 385px;
+    height: auto;
+}
+.bars:hover  .bar{
+    text-shadow: 2px 2px 2px #000;
+}
+#page2{
+    align-self: right;
+    align-content: right;
+    text-align: right;
+}
+
+#page2{
+    align-self: left;
+    align-content: left;
+    text-align: left;
+}
+@keyframes turnleft{
+    0%{
+        width: 0px;
+        margin-left: 387px;
+        height: 544.82;
+    }
+    5%{
+        height: 544.93px;
+    }
+    10%{
+        height: 544.93px;
+    }
+    15%{
+        height: 544.93px;
+    }
+    20%{
+        height: 544.93px;
+    }
+    25%{
+        height: 544.93px;
+    }
+    30%{
+        height: 544.93px;
+    }
+    35%{
+        height: 544.93px;
+    }
+    45%{
+        height: 544.93px;
+    }
+    50%{
+        height: 544.93px;
+    }
+    55%{
+        height: 544.93px;
+    }
+    60%{
+        height: 544.93px;
+    }
+    65%{
+        height: 544.93px;
+    }
+    70%{
+        height: 544.93px;
+    }
+    75%{
+        height: 544.93px;
+    }
+    80%{
+        height: 544.93px;
+    }
+    85%{
+        height: 544.93px;
+    }
+    90%{
+        height: 544.93px;
+    }
+    95%{
+        height: 544.93px;
+    }
+    100%{
+        width: 386px;
+        margin-left: 1px;
+        height: 544.82;
+    }
+}
+@keyframes turnright{
+    0%{
+        width: 386px;
+        height: 544.82;
+    }5%{
+        height: 544.93px;
+    }
+    10%{
+        height: 544.93px;
+    }
+    15%{
+        height: 544.93px;
+    }
+    20%{
+        height: 544.93px;
+    }
+    25%{
+        height: 544.93px;
+    }
+    30%{
+        height: 544.93px;
+    }
+    35%{
+        height: 544.93px;
+    }
+    45%{
+        height: 544.93px;
+    }
+    50%{
+        height: 544.93px;
+    }
+    55%{
+        height: 544.93px;
+    }
+    60%{
+        height: 544.93px;
+    }
+    65%{
+        height: 544.93px;
+    }
+    70%{
+        height: 544.93px;
+    }
+    75%{
+        height: 544.93px;
+    }
+    80%{
+        height: 544.93px;
+    }
+    85%{
+        height: 544.93px;
+    }
+    90%{
+        height: 544.93px;
+    }
+    95%{
+        height: 544.93px;
+    }
+    100%{
+        width: 0px;
+        height: 544.82;
+
+    }
+}
+@keyframes fright{
+    0%{
+        width: 386px;
+        margin-left: 1px;
+        height: 544.82;
+    }
+    5%{
+        height: 544.93px;
+    }
+    10%{
+        height: 544.93px;
+    }
+    15%{
+        height: 544.93px;
+    }
+    20%{
+        height: 544.93px;
+    }
+    25%{
+        height: 544.93px;
+    }
+    30%{
+        height: 544.93px;
+    }
+    35%{
+        height: 544.93px;
+    }
+    45%{
+        height: 544.93px;
+    }
+    50%{
+        height: 544.93px;
+    }
+    55%{
+        height: 544.93px;
+    }
+    60%{
+        height: 544.93px;
+    }
+    65%{
+        height: 544.93px;
+    }
+    70%{
+        height: 544.93px;
+    }
+    75%{
+        height: 544.93px;
+    }
+    80%{
+        height: 544.93px;
+    }
+    85%{
+        height: 544.93px;
+    }
+    90%{
+        height: 544.93px;
+    }
+    95%{
+        height: 544.93px;
+    }
+    100%{
+        width: 0px;
+        margin-left: 387px;
+        height: 544.82;
+    }
+}
+@keyframes fleft{
+    0%{
+        width: 0px;
+        height: 544.82;
+    }5%{
+        height: 544.93px;
+    }
+    10%{
+        height: 544.93px;
+    }
+    15%{
+        height: 544.93px;
+    }
+    20%{
+        height: 544.93px;
+    }
+    25%{
+        height: 544.93px;
+    }
+    30%{
+        height: 544.93px;
+    }
+    35%{
+        height: 544.93px;
+    }
+    45%{
+        height: 544.93px;
+    }
+    50%{
+        height: 544.93px;
+    }
+    55%{
+        height: 544.93px;
+    }
+    60%{
+        height: 544.93px;
+    }
+    65%{
+        height: 544.93px;
+    }
+    70%{
+        height: 544.93px;
+    }
+    75%{
+        height: 544.93px;
+    }
+    80%{
+        height: 544.93px;
+    }
+    85%{
+        height: 544.93px;
+    }
+    90%{
+        height: 544.93px;
+    }
+    95%{
+        height: 544.93px;
+    }
+    100%{
+        width: 386px;
+        height: 544.82;
+
+    }
+}
+
+.text
+{
+    position: absolute; 
+    left: 38%;
+    bottom: -5px;
+}
+p{
+    font-size: 10px;
+    z-index: 2032324243;
+}
+.panel{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    height: 40px;
+    padding-bottom: 0px 0px;
+    left: 45.5%;
+    margin: 0px auto;
+    align-items: center;
+    position: relative;
+}
+.bars{
+    display: flex;
+    text-align: center;
+}
+.barleft{
+    margin-right: 10px;
+}

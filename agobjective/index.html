@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        console.log("NOTLAR: \n Header Ago.com.tr'ninkiyle aynı olucak \n Ve burdaki footerın üstüne ago.com.tr'nin footerı koyulcak")
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agobjective | Anadolu Gelişim Okulları Dergisi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d2e9fc29de.js" crossorigin="anonymous"></script>
+    <style>
+        
+        
+        @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+        *{
+            font-family: "Hind";
+            font-weight: 300;
+        }
+        body{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }  
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bolder;
+            transition: all 0.3s ease 0s;
+            font-weight: 500;
+        }
+        h1{
+            font-weight: 700;
+        }
+        h3{
+            font-weight: 400;
+        }
+        h2{
+            font-weight: 500;
+        }
+        a:hover{
+            color: #F32735;  
+            transition: all 0.3s ease 0s;          
+        }
+        .content{
+            padding: 10px 0px;
+        }
+        .content-header{
+            margin-bottom: 0px;
+        }
+        .content-header .text-area{
+            text-align: center;
+        }
+        .content-header .text-area .link-boxes{
+            text-align: center;
+            display: flex;
+            min-height: 50px;
+        }
+        .content-header .text-area .link-boxes .link-box{
+            text-align: center;
+            margin: 20px 15px;
+            padding: 5px 5px;
+            border-radius: 8px;
+            background-color: transparent;
+            background-image: linear-gradient(90deg, #0082cb 0%, #61ce70 100%);
+            color: #ffffff;
+            transition: all 0.3s ease 0s;          
+        }
+        .content-header .text-area .link-boxes .link-box:hover{
+            box-shadow:0px 0px 30px #72DDF7;
+            transition: all 0.3s ease 0s;          
+        }
+        .content-header .text-area .link-boxes .link-box a{
+            color: #ffffff;
+            font-weight: 300;
+        }
+        .content-header .header-content{
+            margin-bottom: 30px;
+        }
+        .content-header .header-content .slider{
+            display: flex;
+            animation: animate 20s linear infinite;
+            overflow-x: hidden;
+        }
+        .content-header .header-content .slider .test{
+            margin: 0px 0px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        .content-header .header-content .slider .test img{
+            height: 254px;
+            width: 433.53px;
+        }
+        @keyframes animate{
+            0%{
+                margin-left: -550px;
+            }
+            50%{
+                margin-left: -20px;
+            }
+            100%{
+                margin-left: -550px;
+            }
+        }
+        .main-content .content-dergi{
+            background-color: #0082CB;
+            width: 100%;
+            color: #fff;
+            margin-top: 50px;
+            padding-top: 10px;
+        }
+        .main-content .content-dergi .head .text{
+            text-align: center;
+        }
+        .main-content .content-dergi .boxes{
+            padding: 5px 20px;
+            overflow-x: hidden;
+        }
+        .main-content .content-dergi .boxes .bxb{
+            display: flex;
+            margin: 20px 50px;
+        }
+        .main-content .content-dergi .boxes .box1{
+            margin-right: 50px;
+            width: 1400px;
+            display: flex;
+        }
+        .main-content .content-dergi .boxes .box2{
+            display: flex;
+        }
+        .main-content .content-dergi .boxes .box3{
+            margin-right: 82px;
+            width: 1400px;
+            display: flex;
+        }
+        .main-content .content-dergi .boxes .box4{
+            display: flex;
+        }
+        .main-content .content-dergi .boxes .bxb .boxtext{
+            margin-left: 30px;
+        }
+        .main-content .content-dergi .boxes .bxb .boxtext h3{
+            font-weight: 600;
+        }
+        .main-content .content-medya{
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+        .main-content .content-medya .link-box{
+            left: 50%;
+            margin: 20px auto;
+            width: 280px;
+            text-align: center;
+            padding: 5px 5px;
+            border-radius: 8px;
+            background-color: transparent;
+            background-image: linear-gradient(90deg, #0082cb 0%, #61ce70 100%);
+            color: #ffffff;
+            transition: all 0.3s ease 0s;          
+        }
+        .main-content .content-medya .link-box:hover{
+            box-shadow:0px 0px 30px #72DDF7;
+            transition: all 0.3s ease 0s;          
+        }
+        .main-content .content-medya .link-box a{
+            color: #ffffff;
+            font-weight: 300;
+        }
+        footer{
+            padding: 20px 0px;
+            background-color: rgb(233, 233, 233);
+            text-align: center;
+        }
+        @media screen and (max-width: 600px){
+            .main-content .content-dergi .boxes .bxb{
+                display: block;
+                width: 90%;
+                margin:0 0;
+                padding: 0 0;
+            }
+            .main-content .content-dergi .boxes{
+                display: block;
+                margin:0 0;
+                padding: 0 0;
+                left: 50%;
+                margin: 5px auto;
+            }
+            .main-content .content-dergi .boxes .box1,.main-content .content-dergi .boxes .box3,.main-content .content-dergi .boxes .box2,.main-content .content-dergi .boxes .box4 {
+                display: block;
+                margin:0 0;
+                padding: 0 0;
+                width: 100%;
+                left: 50%;
+                margin: 5px auto;
+            }
+            .main-content .content-dergi .boxes .bxb .boximg img{  
+                padding-left: 25%;
+            }
+        }
+        .fixbox{
+            left: 50%;
+            margin: 20px auto;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hed-text">
+        </div>
+    </header>
+    <section>
+        <div class="content">
+            <div class="content-header">
+                <div class="text-area">
+                    <h1>Agobjective Dergisi</h1>
+                    <h3>Hoşgeldiniz,<a id="dergi-link" href="#dergilink"> dergimize</a> veya <a id="media-link" href="medyaicerik/index.html">medya içeriklerine</a> buradan ulaşabilirsiniz</h3>
+                    <div class="link-boxes" id="dergilink">
+                        <div class="fixbox">
+                            <div class="link-box lb1">
+                            <a href="pdf_dergi/Agobjective.pdf">PDF</a>
+                        </div>
+                        <div class="link-box lb2">
+                            <a href="e-dergi/index.html">Etkileşimli E-Dergi</a>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="header-content">
+                    <div class="slider">
+                        <div class="test">
+                            <img src="img/kobe.jpg" alt="">
+                        </div>
+                        <div class="test">
+                            <img src="img/nuro.jpg" alt="">
+                        </div>
+                        <div class="test">
+                            <img src="img/tesla.jpg" alt="">
+                        </div>
+                        <div class="test">
+                            <img src="img/rop.jpg" alt="">
+                        </div>
+                        <div class="test">
+                            <img src="img/lifi.jpg" alt="">
+                        </div>
+                        <div class="test">
+                            <img src="img/tesla.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="header-par">
+                    <div class="text-area">
+                        <h2>Çok yönlü AGO'nun, Çok yönlü dergisi</h3>
+                        <p>Agobjective Dergisi AGO'nun öğrencileri tarafından yazılan, tasarlanan, üretilen bir bilim, teknoloji, spor dergisidir.
+                            <br>
+                            <br>
+                            Dergimize tamamen ücretsiz bir şekilde <a id="dergi-link" href="#dergilink">buradan</a> ulaşabilirsiniz
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="content-dergi">
+                    <div class="head">
+                        <div class="text">
+                            <h1>Dergimizin İlginizi Çekebilecek İçerikleri</h1>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <div class="boxbar1 bxb">
+                            <div class="box1">
+                                <div class="boximg">
+                                    <img src="img/ısınma.jpg" width="180px" height="auto">
+                                </div>
+                                <div class="boxtext">
+                                    <div class="boxheader">
+                                        <h3>Küresel Isınma</h3>
+                                    </div>
+                                    <div class="boxpar">
+                                        <p>Gün geçtikçe riski artan küresel ısınmayı dikkat çeken ve gizlenen yönleriyle ele aldık</p>
+                                    </div>
+                                </div>                    
+                            </div>
+                            <div class="box2">
+                                <div class="boximg">
+                                    <img src="img/solar.jpg" width="180px" height="auto">
+                                </div>
+                                <div class="boxtext">
+                                    <div class="boxheader">
+                                        <h3>Solar Paneller</h3>
+                                    </div>
+                                    <div class="boxpar">
+                                        <p>Gelişim Solar Nerji A.Ş.'ye bir röpörtaja giderek tüm detaylı bilgiler,siz nasıl kendi enerjinizi üretebilirsiniz,paneller nasıl çalışır vb. konuları açığa kavuşturduk</p>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                        <div class="boxbar2 bxb">
+                            <div class="box3">
+                                <div class="boximg">
+                                    <img src="img/ispanyol.jpg" width="180px" height="auto">
+                                </div>
+                                <div class="boxtext">
+                                    <div class="boxheader">
+                                        <h3>İspanyol Gribi</h3>
+                                    </div>
+                                    <div class="boxpar">
+                                        <p>Covid-19 gibi tüm dünyayı kasıp kavuran gribi(flu) hem ele aldık hemde covid ile bağlarını açığa kavuşturduk.</p>
+                                    </div>
+                                </div>                           
+                            </div>
+                            <div class="box4">
+                                <div class="boximg">
+                                    <img src="img/transistor.jpg" width="180px" height="auto">
+                                </div>
+                                <div class="boxtext">
+                                    <div class="boxheader">
+                                        <h3>Transistörler</h3>
+                                    </div>
+                                    <div class="boxpar">
+                                        <p>Daha adını bile duymadığınız nerdeyse gözle görülemeyecek kadar küçük parçaların haytımızdaki,Tarihin En Önemli İcatlarından Biri Olan,yeri çok önemli olan parçalar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-medya">
+                    <div class="head">
+                        <div class="text">
+                            <h1>Agobjective Medya İçerikleri</h1>
+                            <h3>Dergimizin içindeki QR Kod ile erişebileceğiniz içerikler</h3>
+                        </div>
+                        <div class="link-box">
+                            <a href="medyaicerik/index.html">Medya İçerikleri</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="content-footer">
+                    <div class="footer-header">
+                        <div class="text">
+                            <h2>Anadolu Gelişim Okulları Agobjective Dergisi</h2>
+                        </div>
+                    </div>
+                    <div class="footer-content">
+                        <div class="text">
+                            <p>Hoşgeldiniz,<a id="dergi-link" href="#dergilink"> dergimize</a> veya <a id="media-link" href="medyaicerik/index.html">medya içeriklerine</a> buradan ulaşabilirsiniz</p>
+                        </div>
+                        <hr>
+                        <div class="info">
+                            <h3>İletişim Bilgileri, Sponsorluklar ve Bilgi için</h3>
+                            <p><i class="fas fa-envelope"></i> agobjective@ago.com.tr</p>
+                            <p>© Agobjective Tüm Hakları Saklıdır.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+</body>
+</html>
